@@ -1,0 +1,96 @@
+
+      body{
+        background-image: url(fondos.jpg);
+        background-position: top center;
+        color: rgb(85, 3, 3);
+        font-family: 'Poppins', sans-serif;
+        margin: 5px;
+      }
+      header{
+        text-align: center;
+        padding: 20px;
+        
+      }
+      h2{
+        padding: 10px 20px 5px 30px;
+        font-size: 25px;
+      }
+      p{
+        padding: 10px 20px 5px 30px;
+        font-size: 20px;
+        text-align: center;
+      }
+      h2{
+        padding: 5px;
+      }
+      .pie {
+        width: 100%;
+         background-color: rgb(2, 1, 56);
+        color: rgb(255, 241, 241);
+        text-align: center;
+    }
+    .centrar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    }
+    nav {
+    overflow: hidden;
+    background-color: #3d4ee4;
+    padding: 20px 10px;
+  }
+  
+  nav a {
+    float: left;
+    color: rgb(99, 25, 3);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  nav a:hover {
+    background-color: rgb(57, 106, 240);
+    color: rgb(116, 4, 4);
+  }
+  .header-right {
+    float: right;
+  }
+body{
+    margin: 5px;
+    background-color: rgb(1, 4, 51);
+    color: azure;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(20px auto);
+    padding: 10px;
+}
+.contenedor div{
+    background-color: rgb(14, 4, 104);
+    color: rgb(234, 197, 32);
+    padding: 2em;
+    font-size: 18px;
+}
+.contenedor div:hover {
+    border: 2px solid rgb(255, 196, 0);
+  }
+
+  form{
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    padding:  30px 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+form label{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
